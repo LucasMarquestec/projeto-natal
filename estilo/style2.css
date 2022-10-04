@@ -10,9 +10,12 @@
 }
 
 header{
-    padding: 60px;
-    background-image: linear-gradient(to bottom, red, white);
-    max-height: 200px;
+    min-height: 250px;
+    
+    background-image: url(/imagens/grande-familia.png);
+    background-position: center top;
+    
+    background-repeat: no-repeat;
      
 }
 
