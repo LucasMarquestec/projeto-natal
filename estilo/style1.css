@@ -11,9 +11,14 @@
 }
 
 header{
-    padding: 60px;
-    background-image: linear-gradient(to bottom, red, white);
-    max-height: 200px;
+    min-height: 250px;
+    
+    background-image: url(/imagens/grande-familia.png);
+    background-position: center top;
+    
+    background-repeat: no-repeat;
+    
+
      
 }
 
@@ -102,7 +107,7 @@ div.presentes> img{
 div.presentes>a{
     padding: 0px 0px 10px 10px;
     text-decoration: none;
-    color: green;
+    color: darkmagenta;
 }
 
 div.presentes>a:hover{
