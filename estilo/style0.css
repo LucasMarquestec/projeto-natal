@@ -11,11 +11,14 @@ body{
 
 header{
     min-height: 250px;
+    max-width: 300px;
+    
     
     background-image: url(/imagens/grande-familia.png);
-    background-position: center top;
+    
     
     background-repeat: no-repeat;
+    
    
      
 }
