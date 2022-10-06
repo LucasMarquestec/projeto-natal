@@ -11,12 +11,11 @@
 
 header{
     min-height: 250px;
-    
-    background-image: url(/imagens/grande-familia.png);
-    background-position: center top;
-    
+    max-width: auto;
+    background-image: url(/imagens/grande-familia-300.png);
+    background-position:center center;
     background-repeat: no-repeat;
-     
+    background-size:auto;
 }
 
 header h1 {

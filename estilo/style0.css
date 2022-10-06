@@ -1,23 +1,30 @@
 @charset "UTF-8";
 
+:root{
+    --cor0:#CCD6D9;
+    --cor1:#F20530;
+    --cor2:#F20519;
+    --cor3:#04BF33;
+    --cor4:#067302;
+    --cor5:;
+}
 *{
     margin: 0px;
     padding: 0px;
    
+   
 }
 body{
-    background-color: beige;
+    background-color: var(--cor1);
 }
 
 header{
     min-height: 250px;
-    max-width: 300px;
-    
-    
-    background-image: url(/imagens/grande-familia.png);
-    
-    
+    max-width: auto;
+    background-image: url(/imagens/grande-familia-300.png);
+    background-position:center center;
     background-repeat: no-repeat;
+    background-size:auto;
     
    
      
@@ -36,13 +43,13 @@ nav{
 }
 nav>a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 10px;
     
 }
 
 nav>a:hover{
-    background-color: red;
+    background-color: var(--cor3);
     border-radius: 3px;
     color: white;
     transition-duration:.7s;
@@ -53,7 +60,7 @@ nav>a:hover{
 main {
    
     display: flex;
-    background-color: gray;
+    background-color: var(--cor0);
     min-width: 320px;
     max-width: 1200px;
     margin: auto;   
