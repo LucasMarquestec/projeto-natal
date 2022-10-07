@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: natalina;
+    src: url('../fontes/natalina.ttf') format('truetype');
+}
+
 :root{
     --cor0:#CCD6D9;
     --cor1:#F20530;
@@ -15,7 +20,7 @@
    
 }
 body{
-    background-color: var(--cor1);
+    background-color: var(--cor0);
 }
 
 header{
@@ -25,7 +30,7 @@ header{
     background-position:center center;
     background-repeat: no-repeat;
     background-size:auto;
-    
+    background-color: var(--cor1);
    
      
 }
@@ -38,18 +43,20 @@ nav{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-bottom: 30px;
-    padding: 0px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 1.1em;
+    background-color: var(--cor3);
 }
 nav>a{
     text-decoration: none;
-    color: white;
+    color:white;
     margin: 10px;
+    
     
 }
 
 nav>a:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     border-radius: 3px;
     color: white;
     transition-duration:.7s;
@@ -60,13 +67,15 @@ nav>a:hover{
 main {
    
     display: flex;
-    background-color: var(--cor0);
+    background-color:white;
     min-width: 320px;
     max-width: 1200px;
     margin: auto;   
     padding:10px ;
     text-align: center; 
-    border-radius: 20px; 
+     
+    box-shadow: 1px 1px 1px black;
+    
 }
 
  a img:hover{
@@ -88,7 +97,7 @@ div img{
 }
 
 footer{
-    background-image: linear-gradient(to bottom, red, white);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
     padding: 20px;
    
 }
