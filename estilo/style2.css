@@ -57,6 +57,8 @@ nav{
     padding: 5px 5px 5px 5px;
     font-size: 1.1em;
     background-color: var(--cor3);
+    margin-bottom: 10px;
+    box-shadow: 3px 1px 12px black;
 }
 nav>a{
     text-decoration: none;
@@ -76,13 +78,15 @@ nav>a:hover{
 
 main{
     background-color: white;
-    min-width: 320px;
+    min-width:auto;
     max-width: 1200px;
     margin: auto;   
     padding:10px ;
     text-align: center;
     border-radius: 20px;
     min-height: 500px;
+    box-shadow: 3px 1px 12px black;
+    border-radius: 20px;
     
 }
 
@@ -97,8 +101,9 @@ main>ul{
 }
 
 footer{
-    background-image: linear-gradient(to bottom, red, white);
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
     padding: 20px;
+    margin-top: 10px;
     
    
 }

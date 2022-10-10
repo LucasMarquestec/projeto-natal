@@ -110,7 +110,7 @@ div img{
 }
 
 footer{
-    background-image: linear-gradient(to bottom, white, var(--cor1));
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
     padding: 20px;
     margin-top: 10px;
    
