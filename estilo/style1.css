@@ -34,14 +34,23 @@ body{
 
 header{
     min-height: 250px;
-    max-width: auto;
-    background-image: url(/imagens/grande-familia-300.png);
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-color: var(--cor1);
-   
-     
+   background-color: var(--cor1);     
+}
+header img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+    
+}
+header img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+    
 }
 
 header h1 {
