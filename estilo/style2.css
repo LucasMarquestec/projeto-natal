@@ -96,9 +96,13 @@ main>ul{
     text-align: justify;
     line-height: 1.3;
     padding: 30px;
-    list-style-type:'\2714\00A0\00A0';
+   
+    /*list-style-type:'\2714\00A0\00A0';*/
+    
 
 }
+
+
 
 footer{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
